@@ -1,0 +1,17 @@
+# Created with YamlCreate.ps1 v2.2.3 $debug=NVS1.CRLF.7-2-9.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: Schniz.fnm
+PackageVersion: 1.35.0
+InstallerType: zip
+ReleaseDate: 2023-07-11
+Installers:
+  - Architecture: x64
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: fnm.exe
+        PortableCommandAlias: fnm
+    InstallerUrl: https://github.com/Schniz/fnm/releases/download/v1.35.0/fnm-windows.zip
+    InstallerSha256: 6D3D10306B077293331A90107457ABDEAF5DE91D58B70202EB5E0D51ADB5F4CA
+ManifestType: installer
+ManifestVersion: 1.4.0
